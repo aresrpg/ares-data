@@ -1,33 +1,287 @@
 {
-  "0": {
-    "name": "0",
-    "level": 16,
-    "item": "golden_helmet",
-    "type": "equipment",
+  "default_sword": {
+    "name": "Rookie Sword",
+    "type": "sword",
+    "item": "magma_cream",
+    "custom_model_data": 44150,
+    "enchanted": false,
+    "description": "",
+    "level": "1",
     "stats": {
-      "vitality": 29,
-      "protection": 10,
-      "strength": 35,
-      "dodge": 6,
-      "speed": -8
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
+    },
+    "critical": [
+      1,
+      50
+    ],
+    "damage": [
+      1,
+      1
+    ]
+  },
+  "default_bow": {
+    "name": "Rookie Bow",
+    "type": "bow",
+    "item": "magma_cream",
+    "custom_model_data": 20284,
+    "enchanted": false,
+    "description": "",
+    "level": "1",
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
+    },
+    "critical": [
+      1,
+      50
+    ],
+    "damage": [
+      1,
+      1
+    ]
+  },
+  "default_axe": {
+    "name": "Rookie Axe",
+    "type": "axe",
+    "item": "magma_cream",
+    "custom_model_data": 13133,
+    "enchanted": false,
+    "description": "",
+    "level": "1",
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
+    },
+    "critical": [
+      1,
+      50
+    ],
+    "damage": [
+      1,
+      1
+    ]
+  },
+  "default_stick": {
+    "name": "Rookie Stick",
+    "type": "stick",
+    "item": "magma_cream",
+    "custom_model_data": 72706,
+    "enchanted": false,
+    "description": "",
+    "level": "1",
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
+    },
+    "critical": [
+      1,
+      50
+    ],
+    "damage": [
+      1,
+      1
+    ]
+  },
+  "default_helmet": {
+    "name": "Rookie Helmet",
+    "type": "helmet",
+    "item": "magma_cream",
+    "custom_model_data": 79561,
+    "enchanted": false,
+    "description": "",
+    "level": 1,
+    "stats": {
+      "vitality": [
+        0,
+        0
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
     }
   },
-  "bronze_coin": {
-    "name": "Pièce de Bronze",
-    "item": "gold_nugget",
-    "type": "money"
-  },
-  "wooden_headdress": {
-    "name": "Coiffe en Bois",
+  "default_necklace": {
+    "name": "Rookie Necklace",
+    "type": "necklace",
+    "item": "magma_cream",
+    "custom_model_data": 75906,
+    "enchanted": false,
+    "description": "",
     "level": 1,
-    "item": "leather_helmet",
-    "type": "equipment",
     "stats": {
-      "agility": 2,
-      "dodge": 1,
-      "protection": -1,
-      "strength": -1
+      "vitality": [
+        0,
+        0
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
+    }
+  },
+  "wolf_gravestone": {
+    "name": "La mort du loup",
+    "type": "sword",
+    "item": "magma_cream",
+    "custom_model_data": 22492,
+    "enchanted": false,
+    "description": "",
+    "level": "37",
+    "stats": {
+      "vitality": [
+        0,
+        0
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        0,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
     },
-    "description": ["Un peu dur mais elle reste", "comfortable."]
+    "critical": [
+      10,
+      25
+    ],
+    "damage": [
+      1,
+      1
+    ]
   }
 }
