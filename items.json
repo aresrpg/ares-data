@@ -1,254 +1,47 @@
 {
-  "default_sword": {
-    "name": "Rookie Sword",
-    "type": "sword",
-    "item": "magma_cream",
-    "custom_model_data": 44150,
-    "enchanted": false,
-    "description": "",
-    "level": "1",
-    "stats": {
-      "vitality": [
-        1,
-        2
-      ],
-      "mind": [
-        0,
-        0
-      ],
-      "strength": [
-        0,
-        0
-      ],
-      "intelligence": [
-        0,
-        0
-      ],
-      "chance": [
-        0,
-        0
-      ],
-      "agility": [
-        0,
-        0
-      ]
-    },
-    "critical": [
-      1,
-      50
-    ],
-    "damage": [
-      1,
-      1
-    ]
-  },
-  "default_bow": {
-    "name": "Rookie Bow",
-    "type": "bow",
-    "item": "magma_cream",
-    "custom_model_data": 20284,
-    "enchanted": false,
-    "description": "",
-    "level": "1",
-    "stats": {
-      "vitality": [
-        1,
-        2
-      ],
-      "mind": [
-        0,
-        0
-      ],
-      "strength": [
-        0,
-        0
-      ],
-      "intelligence": [
-        0,
-        0
-      ],
-      "chance": [
-        0,
-        0
-      ],
-      "agility": [
-        0,
-        0
-      ]
-    },
-    "critical": [
-      1,
-      50
-    ],
-    "damage": [
-      1,
-      1
-    ]
-  },
-  "default_axe": {
-    "name": "Rookie Axe",
-    "type": "axe",
-    "item": "magma_cream",
-    "custom_model_data": 13133,
-    "enchanted": false,
-    "description": "",
-    "level": "1",
-    "stats": {
-      "vitality": [
-        1,
-        2
-      ],
-      "mind": [
-        0,
-        0
-      ],
-      "strength": [
-        0,
-        0
-      ],
-      "intelligence": [
-        0,
-        0
-      ],
-      "chance": [
-        0,
-        0
-      ],
-      "agility": [
-        0,
-        0
-      ]
-    },
-    "critical": [
-      1,
-      50
-    ],
-    "damage": [
-      1,
-      1
-    ]
-  },
-  "default_stick": {
-    "name": "Rookie Stick",
-    "type": "stick",
-    "item": "magma_cream",
-    "custom_model_data": 72706,
-    "enchanted": false,
-    "description": "",
-    "level": "1",
-    "stats": {
-      "vitality": [
-        1,
-        2
-      ],
-      "mind": [
-        0,
-        0
-      ],
-      "strength": [
-        0,
-        0
-      ],
-      "intelligence": [
-        0,
-        0
-      ],
-      "chance": [
-        0,
-        0
-      ],
-      "agility": [
-        0,
-        0
-      ]
-    },
-    "critical": [
-      1,
-      50
-    ],
-    "damage": [
-      1,
-      1
-    ]
-  },
   "default_helmet": {
-    "name": "Rookie Helmet",
+    "name": "L Met",
     "type": "helmet",
     "item": "magma_cream",
-    "custom_model_data": 79561,
+    "custom_model_data": 8794,
     "enchanted": false,
-    "description": "",
-    "level": 1,
+    "description": "Achetable",
+    "level": "2",
     "stats": {
       "vitality": [
-        0,
+        2,
         0
       ],
       "mind": [
-        0,
+        1,
         0
       ],
       "strength": [
-        0,
+        2,
         0
       ],
       "intelligence": [
-        0,
+        2,
         0
       ],
       "chance": [
-        0,
+        2,
         0
       ],
       "agility": [
-        0,
+        2,
         0
       ]
     }
   },
-  "default_necklace": {
-    "name": "Rookie Necklace",
-    "type": "necklace",
-    "item": "magma_cream",
-    "custom_model_data": 75906,
-    "enchanted": false,
-    "description": "",
-    "level": 1,
-    "stats": {
-      "vitality": [
-        0,
-        0
-      ],
-      "mind": [
-        0,
-        0
-      ],
-      "strength": [
-        0,
-        0
-      ],
-      "intelligence": [
-        0,
-        0
-      ],
-      "chance": [
-        0,
-        0
-      ],
-      "agility": [
-        0,
-        0
-      ]
-    }
-  },
-  "wolf_gravestone": {
-    "name": "La mort du loup",
+  "Sword": {
+    "name": "Useless Sword",
     "type": "sword",
     "item": "magma_cream",
-    "custom_model_data": 22492,
+    "custom_model_data": 36999,
     "enchanted": false,
-    "description": "",
-    "level": "37",
+    "description": "Achetable",
+    "level": "2",
     "stats": {
       "vitality": [
         0,
@@ -259,7 +52,7 @@
         0
       ],
       "strength": [
-        0,
+        2,
         0
       ],
       "intelligence": [
@@ -267,21 +60,360 @@
         0
       ],
       "chance": [
-        0,
+        2,
         0
       ],
       "agility": [
-        0,
+        1,
         0
       ]
     },
     "critical": [
-      10,
+      1,
       25
     ],
     "damage": [
       1,
-      1
+      2
+    ]
+  },
+  "Chestplate": {
+    "name": "Cheh Splate",
+    "type": "chestplate",
+    "item": "leather_chestplate",
+    "custom_model_data": 5966,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        5,
+        0
+      ],
+      "mind": [
+        3,
+        0
+      ],
+      "strength": [
+        2,
+        0
+      ],
+      "intelligence": [
+        2,
+        0
+      ],
+      "chance": [
+        2,
+        0
+      ],
+      "agility": [
+        2,
+        0
+      ]
+    }
+  },
+  "Legging": {
+    "name": "Jam Bière",
+    "type": "leggings",
+    "item": "leather_leggings",
+    "custom_model_data": 96479,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        3,
+        0
+      ],
+      "mind": [
+        2,
+        0
+      ],
+      "strength": [
+        2,
+        0
+      ],
+      "intelligence": [
+        2,
+        0
+      ],
+      "chance": [
+        2,
+        0
+      ],
+      "agility": [
+        2,
+        0
+      ]
+    }
+  },
+  "Boots": {
+    "name": "Sans Dalle",
+    "type": "boots",
+    "item": "leather_boots",
+    "custom_model_data": 16870,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        3,
+        0
+      ],
+      "mind": [
+        1,
+        0
+      ],
+      "strength": [
+        2,
+        0
+      ],
+      "intelligence": [
+        2,
+        0
+      ],
+      "chance": [
+        2,
+        0
+      ],
+      "agility": [
+        2,
+        0
+      ]
+    }
+  },
+  "Necklace": {
+    "name": "Nek Laisse",
+    "type": "necklace",
+    "item": "magma_cream",
+    "custom_model_data": 4032,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        4,
+        0
+      ],
+      "mind": [
+        3,
+        0
+      ],
+      "strength": [
+        1,
+        0
+      ],
+      "intelligence": [
+        1,
+        0
+      ],
+      "chance": [
+        1,
+        0
+      ],
+      "agility": [
+        1,
+        0
+      ]
+    }
+  },
+  "Ring": {
+    "name": "Nigr",
+    "type": "ring",
+    "item": "magma_cream",
+    "custom_model_data": 37069,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        2,
+        0
+      ],
+      "mind": [
+        1,
+        0
+      ],
+      "strength": [
+        2,
+        0
+      ],
+      "intelligence": [
+        2,
+        0
+      ],
+      "chance": [
+        2,
+        0
+      ],
+      "agility": [
+        2,
+        0
+      ]
+    }
+  },
+  "Belt": {
+    "name": "Sceat's Slip",
+    "type": "belt",
+    "item": "magma_cream",
+    "custom_model_data": 68780,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        2,
+        0
+      ],
+      "mind": [
+        2,
+        0
+      ],
+      "strength": [
+        2,
+        0
+      ],
+      "intelligence": [
+        2,
+        0
+      ],
+      "chance": [
+        2,
+        0
+      ],
+      "agility": [
+        2,
+        0
+      ]
+    }
+  },
+  "Stick": {
+    "name": "Useless Stick",
+    "type": "stick",
+    "item": "magma_cream",
+    "custom_model_data": 25673,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        0,
+        0
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        2,
+        0
+      ],
+      "chance": [
+        2,
+        0
+      ],
+      "agility": [
+        0,
+        0
+      ]
+    },
+    "critical": [
+      1,
+      20
+    ],
+    "damage": [
+      1,
+      3
+    ]
+  },
+  "Bow": {
+    "name": "Useless Bow",
+    "type": "bow",
+    "item": "magma_cream",
+    "custom_model_data": 40896,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        0,
+        0
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        0,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        1,
+        0
+      ],
+      "agility": [
+        3,
+        0
+      ]
+    },
+    "critical": [
+      1,
+      20
+    ],
+    "damage": [
+      1,
+      3
+    ]
+  },
+  "Axe": {
+    "name": "Useless Axe",
+    "type": "axe",
+    "item": "magma_cream",
+    "custom_model_data": 48762,
+    "enchanted": false,
+    "description": "Achetable",
+    "level": "2",
+    "stats": {
+      "vitality": [
+        0,
+        0
+      ],
+      "mind": [
+        0,
+        0
+      ],
+      "strength": [
+        3,
+        0
+      ],
+      "intelligence": [
+        0,
+        0
+      ],
+      "chance": [
+        1,
+        0
+      ],
+      "agility": [
+        1,
+        0
+      ]
+    },
+    "critical": [
+      1,
+      25
+    ],
+    "damage": [
+      1,
+      3
     ]
   }
 }
