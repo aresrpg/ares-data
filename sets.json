@@ -1,35 +1,49 @@
 {
   "default_set": {
     "name": "Panoplie du fragile",
-    "stats": [
-      {},
-      {
-        "vitality": 0,
-        "mind": 0,
-        "strength": 0,
-        "intelligence": 0,
-        "chance": 0,
-        "agility": 0,
+    "stats": {
+      "3": {
+        "vitality": 5,
+        "mind": 5,
+        "strength": 5,
+        "intelligence": 5,
+        "chance": 5,
+        "agility": 5,
         "speed": 0,
         "reach": 0,
-        "power": 0
+        "haste": 0
+      },
+      "8": {
+        "vitality": 15,
+        "mind": 10,
+        "strength": 10,
+        "intelligence": 10,
+        "chance": 10,
+        "agility": 10,
+        "speed": 0,
+        "reach": 0,
+        "haste": 0
       }
-    ],
-    "items": ["default_sword", "default_helmet"]
+    },
+    "items": [
+      "default_sword",
+      "default_helmet",
+      "default_ring",
+      "default_necklace",
+      "default_legging",
+      "default_chestplate",
+      "default_bow",
+      "default_boots",
+      "default_belt",
+      "default_axe",
+      "default_stick"
+    ]
   },
   "genshin": {
     "name": "Genshin",
-    "stats": [
-      {},
-      {
-        "vitality": 0,
-        "mind": 0,
-        "strength": 0,
-        "intelligence": 0,
-        "chance": 0,
-        "agility": 0
-      }
-    ],
-    "items": ["wolf_gravestone"]
+    "stats": {},
+    "items": [
+      "wolf_gravestone"
+    ]
   }
 }

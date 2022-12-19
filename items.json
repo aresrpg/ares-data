@@ -6,11 +6,11 @@
     "custom_model_data": 44150,
     "enchanted": false,
     "description": "",
-    "level": "1",
+    "level": 1,
     "stats": {
       "vitality": [
-        1,
-        2
+        0,
+        3
       ],
       "mind": [
         0,
@@ -40,18 +40,23 @@
         0,
         0
       ],
-      "power": [
+      "haste": [
         0,
         0
       ]
     },
-    "critical": [
-      1,
-      50
-    ],
+    "critical": {
+      "from": 1,
+      "to": 50,
+      "bonus": 5
+    },
     "damage": [
-      1,
-      1
+      {
+        "from": 2,
+        "to": 3,
+        "type": "damage",
+        "element": "earth"
+      }
     ]
   },
   "default_bow": {
@@ -61,15 +66,15 @@
     "custom_model_data": 20284,
     "enchanted": false,
     "description": "",
-    "level": "1",
+    "level": 1,
     "stats": {
       "vitality": [
-        1,
-        2
-      ],
-      "mind": [
         0,
         0
+      ],
+      "mind": [
+        1,
+        1
       ],
       "strength": [
         0,
@@ -95,18 +100,23 @@
         0,
         0
       ],
-      "power": [
+      "haste": [
         0,
         0
       ]
     },
-    "critical": [
-      1,
-      50
-    ],
+    "critical": {
+      "from": 1,
+      "to": 50,
+      "bonus": 7
+    },
     "damage": [
-      1,
-      1
+      {
+        "from": 1,
+        "to": 3,
+        "type": "damage",
+        "element": "earth"
+      }
     ]
   },
   "default_axe": {
@@ -116,19 +126,19 @@
     "custom_model_data": 13133,
     "enchanted": false,
     "description": "",
-    "level": "1",
+    "level": 1,
     "stats": {
       "vitality": [
-        1,
-        2
+        0,
+        0
       ],
       "mind": [
         0,
         0
       ],
       "strength": [
-        0,
-        0
+        1,
+        1
       ],
       "intelligence": [
         0,
@@ -150,32 +160,37 @@
         0,
         0
       ],
-      "power": [
+      "haste": [
         0,
         0
       ]
     },
-    "critical": [
-      1,
-      50
-    ],
+    "critical": {
+      "from": 1,
+      "to": 50,
+      "bonus": 10
+    },
     "damage": [
-      1,
-      1
+      {
+        "from": 2,
+        "to": 4,
+        "type": "damage",
+        "element": "earth"
+      }
     ]
   },
   "default_stick": {
     "name": "Rookie Stick",
     "type": "stick",
     "item": "magma_cream",
-    "custom_model_data": 72706,
+    "custom_model_data": 83266,
     "enchanted": false,
     "description": "",
-    "level": "1",
+    "level": 1,
     "stats": {
       "vitality": [
-        1,
-        2
+        0,
+        0
       ],
       "mind": [
         0,
@@ -194,8 +209,8 @@
         0
       ],
       "agility": [
-        0,
-        0
+        1,
+        2
       ],
       "speed": [
         0,
@@ -205,18 +220,23 @@
         0,
         0
       ],
-      "power": [
+      "haste": [
         0,
         0
       ]
     },
-    "critical": [
-      1,
-      50
-    ],
+    "critical": {
+      "from": 1,
+      "to": 40,
+      "bonus": 5
+    },
     "damage": [
-      1,
-      1
+      {
+        "from": 1,
+        "to": 3,
+        "type": "damage",
+        "element": "air"
+      }
     ]
   },
   "default_helmet": {
@@ -229,28 +249,28 @@
     "level": 1,
     "stats": {
       "vitality": [
-        0,
-        0
+        1,
+        2
       ],
       "mind": [
-        0,
-        0
+        1,
+        2
       ],
       "strength": [
-        0,
-        0
+        1,
+        2
       ],
       "intelligence": [
-        0,
-        0
+        1,
+        2
       ],
       "chance": [
-        0,
-        0
+        1,
+        2
       ],
       "agility": [
-        0,
-        0
+        1,
+        2
       ],
       "speed": [
         0,
@@ -260,7 +280,7 @@
         0,
         0
       ],
-      "power": [
+      "haste": [
         0,
         0
       ]
@@ -270,34 +290,34 @@
     "name": "Rookie Necklace",
     "type": "necklace",
     "item": "magma_cream",
-    "custom_model_data": 75906,
+    "custom_model_data": 647,
     "enchanted": false,
     "description": "",
     "level": 1,
     "stats": {
       "vitality": [
-        0,
-        0
+        1,
+        2
       ],
       "mind": [
-        0,
-        0
+        1,
+        2
       ],
       "strength": [
-        0,
-        0
+        1,
+        2
       ],
       "intelligence": [
-        0,
-        0
+        1,
+        2
       ],
       "chance": [
-        0,
-        0
+        1,
+        2
       ],
       "agility": [
-        0,
-        0
+        1,
+        2
       ],
       "speed": [
         0,
@@ -307,7 +327,7 @@
         0,
         0
       ],
-      "power": [
+      "haste": [
         0,
         0
       ]
@@ -320,7 +340,7 @@
     "custom_model_data": 22492,
     "enchanted": false,
     "description": "",
-    "level": "37",
+    "level": 37,
     "stats": {
       "vitality": [
         0,
@@ -354,18 +374,264 @@
         0,
         0
       ],
-      "power": [
+      "haste": [
         0,
         0
       ]
     },
-    "critical": [
-      10,
-      25
-    ],
+    "critical": {
+      "from": 1,
+      "to": 20,
+      "bonus": 10
+    },
     "damage": [
-      1,
-      1
+      {
+        "from": 6,
+        "to": 15,
+        "type": "damage",
+        "element": "earth"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "type": "life_steal",
+        "element": "water"
+      }
     ]
+  },
+  "default_chestplate": {
+    "name": "Rookie Chestplate",
+    "type": "chestplate",
+    "item": "leather_chestplate",
+    "custom_model_data": 0,
+    "enchanted": false,
+    "description": "",
+    "level": 1,
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        1,
+        2
+      ],
+      "strength": [
+        1,
+        2
+      ],
+      "intelligence": [
+        1,
+        2
+      ],
+      "chance": [
+        1,
+        2
+      ],
+      "agility": [
+        1,
+        2
+      ],
+      "speed": [
+        0,
+        0
+      ],
+      "reach": [
+        0,
+        0
+      ],
+      "haste": [
+        0,
+        0
+      ]
+    }
+  },
+  "default_ring": {
+    "name": "Rookie Ring",
+    "type": "ring",
+    "item": "magma_cream",
+    "custom_model_data": 82562,
+    "enchanted": false,
+    "description": "",
+    "level": 1,
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        1,
+        2
+      ],
+      "strength": [
+        1,
+        2
+      ],
+      "intelligence": [
+        1,
+        2
+      ],
+      "chance": [
+        1,
+        2
+      ],
+      "agility": [
+        1,
+        2
+      ],
+      "speed": [
+        0,
+        0
+      ],
+      "reach": [
+        0,
+        0
+      ],
+      "haste": [
+        0,
+        0
+      ]
+    }
+  },
+  "default_legging": {
+    "name": "Rookie Leggings",
+    "type": "leggings",
+    "item": "leather_leggings",
+    "custom_model_data": 0,
+    "enchanted": false,
+    "description": "",
+    "level": 1,
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        1,
+        2
+      ],
+      "strength": [
+        1,
+        2
+      ],
+      "intelligence": [
+        1,
+        2
+      ],
+      "chance": [
+        1,
+        2
+      ],
+      "agility": [
+        1,
+        2
+      ],
+      "speed": [
+        0,
+        0
+      ],
+      "reach": [
+        0,
+        0
+      ],
+      "haste": [
+        0,
+        0
+      ]
+    }
+  },
+  "default_boots": {
+    "name": "Rookie Boots",
+    "type": "boots",
+    "item": "leather_boots",
+    "custom_model_data": 0,
+    "enchanted": false,
+    "description": "",
+    "level": 1,
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        1,
+        2
+      ],
+      "strength": [
+        1,
+        2
+      ],
+      "intelligence": [
+        1,
+        2
+      ],
+      "chance": [
+        1,
+        2
+      ],
+      "agility": [
+        1,
+        2
+      ],
+      "speed": [
+        0,
+        0
+      ],
+      "reach": [
+        0,
+        0
+      ],
+      "haste": [
+        0,
+        0
+      ]
+    }
+  },
+  "default_belt": {
+    "name": "Rookie Belt",
+    "type": "belt",
+    "item": "magma_cream",
+    "custom_model_data": 55883,
+    "enchanted": false,
+    "description": "",
+    "level": 1,
+    "stats": {
+      "vitality": [
+        1,
+        2
+      ],
+      "mind": [
+        1,
+        2
+      ],
+      "strength": [
+        1,
+        2
+      ],
+      "intelligence": [
+        1,
+        2
+      ],
+      "chance": [
+        1,
+        2
+      ],
+      "agility": [
+        1,
+        2
+      ],
+      "speed": [
+        0,
+        0
+      ],
+      "reach": [
+        0,
+        0
+      ],
+      "haste": [
+        0,
+        0
+      ]
+    }
   }
 }
