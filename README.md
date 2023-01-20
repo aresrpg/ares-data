@@ -1,9 +1,12 @@
-# data
+<p align=center>
+  <img src="https://i.imgur.com/t3AXDhB.jpg"/>
+</p>
 
-This repo contains public data for use in AresRPG, it is made available for anyone to run the server and create it's own fork with a similar structure.
+This repo contains gameplay data for use in AresRPG
 
 ## Usage
 
-Being a submodule of https://github.com/aresrpg/aresrpg you can simply create forks and add a new remote. 
-You can also create your own items on https://editor.aresrpg.world 
-> note that you will also need to fork https://github.com/aresrpg/resourcepacks
+Being a submodule of https://github.com/aresrpg/aresrpg you can simply create forks and add a new remote.
+You can also create your own items on https://editor.aresrpg.world
+
+> note that you will also need an empty minecraft resource pack
