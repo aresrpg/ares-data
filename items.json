@@ -43,11 +43,14 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     },
     "critical": {
-      "from": 1,
-      "to": 50,
+      "value": 50,
       "bonus": 5
     },
     "damage": [
@@ -103,11 +106,14 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     },
     "critical": {
-      "from": 1,
-      "to": 50,
+      "value": 50,
       "bonus": 7
     },
     "damage": [
@@ -163,11 +169,14 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     },
     "critical": {
-      "from": 1,
-      "to": 50,
+      "value": 50,
       "bonus": 10
     },
     "damage": [
@@ -223,11 +232,14 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     },
     "critical": {
-      "from": 1,
-      "to": 40,
+      "value": 50,
       "bonus": 5
     },
     "damage": [
@@ -283,6 +295,10 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     }
   },
@@ -328,6 +344,10 @@
         0
       ],
       "haste": [
+        0,
+        0
+      ],
+      "raw_damage": [
         0,
         0
       ]
@@ -377,11 +397,14 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     },
     "critical": {
-      "from": 1,
-      "to": 20,
+      "value": 50,
       "bonus": 10
     },
     "damage": [
@@ -443,6 +466,10 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     }
   },
@@ -488,6 +515,10 @@
         0
       ],
       "haste": [
+        0,
+        0
+      ],
+      "raw_damage": [
         0,
         0
       ]
@@ -537,6 +568,10 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     }
   },
@@ -584,6 +619,10 @@
       "haste": [
         0,
         0
+      ],
+      "raw_damage": [
+        0,
+        0
       ]
     }
   },
@@ -629,6 +668,10 @@
         0
       ],
       "haste": [
+        0,
+        0
+      ],
+      "raw_damage": [
         0,
         0
       ]
