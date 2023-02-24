@@ -50,7 +50,7 @@
       ]
     },
     "critical": {
-      "value": 50,
+      "outcomes": 50,
       "bonus": 5
     },
     "damage": [
@@ -113,7 +113,7 @@
       ]
     },
     "critical": {
-      "value": 50,
+      "outcomes": 50,
       "bonus": 7
     },
     "damage": [
@@ -176,7 +176,7 @@
       ]
     },
     "critical": {
-      "value": 50,
+      "outcomes": 50,
       "bonus": 10
     },
     "damage": [
@@ -239,7 +239,7 @@
       ]
     },
     "critical": {
-      "value": 50,
+      "outcomes": 50,
       "bonus": 5
     },
     "damage": [
@@ -255,7 +255,7 @@
     "name": "Rookie Helmet",
     "type": "helmet",
     "item": "magma_cream",
-    "custom_model_data": 79561,
+    "custom_model_data": 71827,
     "enchanted": false,
     "description": "",
     "level": 1,
@@ -404,7 +404,7 @@
       ]
     },
     "critical": {
-      "value": 50,
+      "outcomes": 50,
       "bonus": 10
     },
     "damage": [
@@ -426,7 +426,7 @@
     "name": "Rookie Chestplate",
     "type": "chestplate",
     "item": "leather_chestplate",
-    "custom_model_data": 0,
+    "custom_model_data": 49410,
     "enchanted": false,
     "description": "",
     "level": 1,
@@ -528,7 +528,7 @@
     "name": "Rookie Leggings",
     "type": "leggings",
     "item": "leather_leggings",
-    "custom_model_data": 0,
+    "custom_model_data": 86693,
     "enchanted": false,
     "description": "",
     "level": 1,
@@ -579,7 +579,7 @@
     "name": "Rookie Boots",
     "type": "boots",
     "item": "leather_boots",
-    "custom_model_data": 0,
+    "custom_model_data": 64723,
     "enchanted": false,
     "description": "",
     "level": 1,
