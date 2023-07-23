@@ -30,15 +30,15 @@
     "items": [
       "default_sword",
       "default_helmet",
-      "default_ring",
-      "default_necklace",
       "default_legging",
       "default_chestplate",
       "default_bow",
+      "default_stick",
+      "default_ring",
+      "default_necklace",
       "default_boots",
       "default_belt",
-      "default_axe",
-      "default_stick"
+      "default_axe"
     ]
   },
   "genshin": {

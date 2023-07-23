@@ -1,28 +1,29 @@
 {
   "default_sword": {
-    "name": "Rookie Sword",
-    "type": "sword",
+    "id": "default_sword",
+    "name": "Marteau du Bouftou",
+    "type": "hammer",
     "item": "magma_cream",
-    "custom_model_data": 44150,
+    "custom_model_data": 58426,
     "enchanted": false,
     "description": "",
-    "level": 1,
+    "level": 20,
     "stats": {
       "vitality": [
-        0,
-        3
+        3,
+        10
       ],
       "mind": [
         0,
         0
       ],
       "strength": [
-        0,
-        0
+        5,
+        10
       ],
       "intelligence": [
-        0,
-        0
+        5,
+        10
       ],
       "chance": [
         0,
@@ -55,14 +56,27 @@
     },
     "damage": [
       {
-        "from": 2,
-        "to": 3,
+        "from": 5,
+        "to": 7,
+        "type": "damage",
+        "element": "earth"
+      },
+      {
+        "from": 5,
+        "to": 7,
+        "type": "damage",
+        "element": "fire"
+      },
+      {
+        "from": 1,
+        "to": 1,
         "type": "damage",
         "element": "earth"
       }
     ]
   },
   "default_bow": {
+    "id": "default_bow",
     "name": "Rookie Bow",
     "type": "bow",
     "item": "magma_cream",
@@ -126,6 +140,7 @@
     ]
   },
   "default_axe": {
+    "id": "default_axe",
     "name": "Rookie Axe",
     "type": "axe",
     "item": "magma_cream",
@@ -143,69 +158,6 @@
         0
       ],
       "strength": [
-        1,
-        1
-      ],
-      "intelligence": [
-        0,
-        0
-      ],
-      "chance": [
-        0,
-        0
-      ],
-      "agility": [
-        0,
-        0
-      ],
-      "speed": [
-        0,
-        0
-      ],
-      "reach": [
-        0,
-        0
-      ],
-      "haste": [
-        0,
-        0
-      ],
-      "raw_damage": [
-        0,
-        0
-      ]
-    },
-    "critical": {
-      "outcomes": 50,
-      "bonus": 10
-    },
-    "damage": [
-      {
-        "from": 2,
-        "to": 4,
-        "type": "damage",
-        "element": "earth"
-      }
-    ]
-  },
-  "default_stick": {
-    "name": "Rookie Stick",
-    "type": "stick",
-    "item": "magma_cream",
-    "custom_model_data": 83266,
-    "enchanted": false,
-    "description": "",
-    "level": 1,
-    "stats": {
-      "vitality": [
-        0,
-        0
-      ],
-      "mind": [
-        0,
-        0
-      ],
-      "strength": [
         0,
         0
       ],
@@ -218,8 +170,8 @@
         0
       ],
       "agility": [
-        1,
-        2
+        0,
+        0
       ],
       "speed": [
         0,
@@ -245,13 +197,23 @@
     "damage": [
       {
         "from": 1,
-        "to": 3,
+        "to": 4,
         "type": "damage",
-        "element": "air"
+        "element": "earth"
       }
     ]
   },
+  "default_stick": {
+    "id": "default_stick",
+    "name": "Rookie Stick",
+    "type": "misc",
+    "item": "magma_cream",
+    "custom_model_data": 83266,
+    "enchanted": false,
+    "description": ""
+  },
   "default_helmet": {
+    "id": "default_helmet",
     "name": "Rookie Helmet",
     "type": "helmet",
     "item": "magma_cream",
@@ -303,6 +265,7 @@
     }
   },
   "default_necklace": {
+    "id": "default_necklace",
     "name": "Rookie Necklace",
     "type": "necklace",
     "item": "magma_cream",
@@ -354,6 +317,7 @@
     }
   },
   "wolf_gravestone": {
+    "id": "wolf_gravestone",
     "name": "La mort du loup",
     "type": "sword",
     "item": "magma_cream",
@@ -423,6 +387,7 @@
     ]
   },
   "default_chestplate": {
+    "id": "default_chestplate",
     "name": "Rookie Chestplate",
     "type": "chestplate",
     "item": "leather_chestplate",
@@ -474,6 +439,7 @@
     }
   },
   "default_ring": {
+    "id": "default_ring",
     "name": "Rookie Ring",
     "type": "ring",
     "item": "magma_cream",
@@ -525,6 +491,7 @@
     }
   },
   "default_legging": {
+    "id": "default_legging",
     "name": "Rookie Leggings",
     "type": "leggings",
     "item": "leather_leggings",
@@ -576,6 +543,7 @@
     }
   },
   "default_boots": {
+    "id": "default_boots",
     "name": "Rookie Boots",
     "type": "boots",
     "item": "leather_boots",
@@ -627,6 +595,7 @@
     }
   },
   "default_belt": {
+    "id": "default_belt",
     "name": "Rookie Belt",
     "type": "belt",
     "item": "magma_cream",
